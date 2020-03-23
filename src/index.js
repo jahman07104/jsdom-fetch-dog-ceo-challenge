@@ -38,7 +38,7 @@ function addBreeds(breeds) {
     li.innerText = breed;
     ul.appendChild(li);
     li.addEventListener("click", function(event) {
-      event.target.style.color = "blue";
+      event.target.style.color = "red";
     });
   });
 }
